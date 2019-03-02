@@ -1,0 +1,20 @@
+uuid: 1ffb98d7-36ca-40e3-a795-fb8c9564a41b
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_wdc_tipo
+field_name: field_wdc_tipo
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

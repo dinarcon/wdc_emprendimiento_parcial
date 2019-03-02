@@ -1,0 +1,21 @@
+uuid: 3d484d15-ddf6-4732-8ec6-972412514f48
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_fecha
+    - node.type.wdc_evento
+  module:
+    - datetime
+id: node.wdc_evento.field_wdc_fecha
+field_name: field_wdc_fecha
+entity_type: node
+bundle: wdc_evento
+label: Fecha
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

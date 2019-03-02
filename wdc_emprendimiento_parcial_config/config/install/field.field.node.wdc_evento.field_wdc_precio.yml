@@ -1,0 +1,23 @@
+uuid: 941a1fc7-20f5-4623-b2c0-77e6168fedbf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_precio
+    - node.type.wdc_evento
+id: node.wdc_evento.field_wdc_precio
+field_name: field_wdc_precio
+entity_type: node
+bundle: wdc_evento
+label: Precio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: C$
+  suffix: ' córdobas'
+field_type: decimal

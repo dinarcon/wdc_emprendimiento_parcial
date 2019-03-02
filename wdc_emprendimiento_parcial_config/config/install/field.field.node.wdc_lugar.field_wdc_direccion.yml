@@ -1,0 +1,21 @@
+uuid: 92a30352-bede-49f1-b7c7-928c3ab2d000
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_direccion
+    - node.type.wdc_lugar
+  module:
+    - text
+id: node.wdc_lugar.field_wdc_direccion
+field_name: field_wdc_direccion
+entity_type: node
+bundle: wdc_lugar
+label: Dirección
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

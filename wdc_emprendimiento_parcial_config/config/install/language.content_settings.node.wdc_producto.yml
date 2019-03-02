@@ -1,0 +1,11 @@
+uuid: 3249da22-4c10-407e-b49a-482cd24b4300
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wdc_producto
+id: node.wdc_producto
+target_entity_type_id: node
+target_bundle: wdc_producto
+default_langcode: site_default
+language_alterable: false

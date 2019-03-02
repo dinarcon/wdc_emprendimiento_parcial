@@ -1,0 +1,18 @@
+uuid: f46f57dc-749a-46c2-be28-a06e5ee4ae85
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wdc_producto
+id: node.wdc_producto.title
+field_name: title
+entity_type: node
+bundle: wdc_producto
+label: Producto
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

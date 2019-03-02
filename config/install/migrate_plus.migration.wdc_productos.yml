@@ -1,0 +1,118 @@
+uuid: 71320a75-e7e3-4512-995d-ab4c4a1d73c1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - wdc_emprendimiento_parcial
+id: wdc_productos
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: wdc_emprendimiento_parcial
+label: 'Importar productos'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Cactus en base de plástico'
+      product_type: 'Cactus'
+      price: 35.00
+      image: 'https://cdn.pixabay.com/photo/2016/01/19/17/36/cactus-1149784_960_720.jpg'
+      content: '<p>Phasellus in sem dictum, egestas sapien id, auctor massa. Curabitur nec urna at mauris lobortis euismod nec ut tortor. Vestibulum congue, nibh viverra vehicula consectetur, risus lorem efficitur dolor, sed sollicitudin augue arcu vel odio. Fusce sed dui turpis. Aliquam ultrices, magna ac tincidunt efficitur, nibh magna commodo odio, sit amet dictum lectus ex non massa.</p><p>Pellentesque purus justo, vestibulum nec neque eget, auctor porttitor diam.</p>'
+    -
+      id: 2
+      title: 'Duo de cactus'
+      product_type: 'Cactus'
+      price: 78.00
+      image: 'https://cdn.pixabay.com/photo/2018/05/02/16/58/fat-plants-3369055_960_720.jpg'
+      content: '<p>Curabitur porttitor tellus ac mattis imperdiet. Sed non risus id lacus interdum maximus. Fusce hendrerit, arcu eget convallis fermentum, risus tortor dignissim felis, luctus rhoncus enim erat non risus.</p><p>Curabitur euismod erat id ante cursus, sed convallis lorem aliquet.</p>'
+    -
+      id: 3
+      title: 'Surtido de cactus'
+      product_type: 'Cactus'
+      price: 599.00
+      image: 'https://cdn.pixabay.com/photo/2016/11/21/12/41/cacti-1845159_960_720.jpg'
+      content: '<p>Proin faucibus erat eget enim molestie, sit amet suscipit massa fermentum. Nulla tempus porttitor pharetra. Sed aliquam hendrerit augue et vestibulum. Aliquam erat volutpat.</p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>'
+    -
+      id: 4
+      title: 'Trio de cactus'
+      product_type: 'Cactus'
+      price: 127.00
+      image: 'https://cdn.pixabay.com/photo/2017/03/08/15/44/plants-2127114_960_720.jpg'
+      content: '<p>Aliquam ut est non est eleifend finibus id vitae neque. Ut congue orci eget posuere aliquam. Aliquam erat volutpat. In nec ex consectetur, rutrum eros vitae, fringilla libero.</p><p>Aenean tortor eros, elementum non vulputate eu, congue ut nibh. Praesent libero neque, sagittis tristique interdum vitae, lobortis non risus.</p>'
+    -
+      id: 5
+      title: 'Rosa roja'
+      product_type: 'Rosas'
+      price: 35.00
+      image: 'https://cdn.pixabay.com/photo/2014/04/10/11/35/red-rose-320891_960_720.jpg'
+      content: '<p>Mauris metus tortor, condimentum eu posuere eu, rutrum a orci. Donec pellentesque consectetur sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p><p>Morbi tempor et turpis eu maximus. Nulla vitae elementum erat, at dapibus est.</p>'
+    -
+      id: 6
+      title: 'Rosa blanca'
+      product_type: 'Rosas'
+      price: 42.00
+      image: 'https://cdn.pixabay.com/photo/2019/01/27/09/34/rose-3957671_960_720.jpg'
+      content: '<p>Donec ut rutrum magna. Duis porttitor neque in velit rhoncus maximus et sit amet arcu. Donec bibendum, ex quis lobortis pulvinar, lorem nisi blandit dui, nec sagittis eros ante quis est. Nam quis lorem non nisi semper laoreet.</p><p>Morbi non iaculis neque. Vivamus vitae urna tortor. Nunc auctor imperdiet ornare. Pellentesque sagittis purus at mollis dictum.</p>'
+    -
+      id: 7
+      title: 'Rosa naranja'
+      product_type: 'Rosas'
+      price: 29.00
+      image: 'https://cdn.pixabay.com/photo/2018/06/07/20/54/rose-3460971_960_720.jpg'
+      content: '<p>Sed et justo mauris. Mauris quis efficitur ex. Nunc accumsan dui velit, sed lobortis libero pretium at. Nullam sed mi ipsum. Nullam ac nulla felis. Donec blandit sed mauris non sodales. Mauris consequat ut diam quis commodo.</p><p>In justo nisl, lobortis malesuada consequat vel, dictum in risus.</p>'
+    -
+      id: 8
+      title: 'Rosa azul'
+      product_type: 'Rosas'
+      price: 33.00
+      image: 'https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg'
+      content: '<p>Sed eget velit quis nibh ullamcorper tristique. Vestibulum suscipit nisi vel vestibulum euismod. Suspendisse congue libero augue, ut pulvinar velit imperdiet eu. Nam vehicula maximus consectetur. Aliquam vehicula nec felis eu placerat.</p><p>Aliquam elementum libero quis nulla vehicula, non laoreet erat gravida. Aenean id feugiat neque. Integer sit amet blandit dui, et pulvinar risus. Nulla facilisi. Donec et rhoncus velit, et porta ipsum. Etiam non efficitur dolor.</p>'
+    -
+      id: 9
+      title: 'Orquídea blanca'
+      product_type: 'Orquídeas'
+      price: 99.00
+      image: 'https://cdn.pixabay.com/photo/2019/02/21/15/17/flower-4011574_960_720.jpg'
+      content: '<p>Nullam nec euismod arcu. Nam consequat sem id imperdiet rutrum. Nam congue non mi ac condimentum. Fusce pharetra sagittis orci, id ultricies ipsum venenatis a. Aliquam a ante sed magna porta pretium et at augue.</p><p>Donec sed tincidunt leo, at molestie tortor.</p>'
+    -
+      id: 10
+      title: 'Orquídea rosas'
+      product_type: 'Orquídeas'
+      price: 79.00
+      image: 'https://cdn.pixabay.com/photo/2018/11/25/15/20/orchids-3837620_960_720.jpg'
+      content: '<p>Pellentesque pulvinar tortor et nisi hendrerit egestas. Maecenas consequat maximus lorem eget facilisis. Praesent posuere nisl nec dui pellentesque, sed sagittis mi lobortis. Pellentesque vitae urna sagittis, cursus orci non, sodales mauris.</p><p>Nullam quis sagittis magna. Pellentesque porttitor aliquam augue. Morbi lacinia dapibus varius.</p>'
+  ids:
+    id:
+      type: integer
+  constants:
+    IMAGE_DESTINATION: 'public://images/'
+process:
+  title: title
+  field_wdc_precio: price
+  field_wdc_imagen:
+    plugin: image_import
+    source: image
+    destination: 'constants/IMAGE_DESTINATION'
+    alt: !title
+    reuse: TRUE
+  field_wdc_tipo:
+    plugin: entity_generate
+    source: product_type
+    entity_type: taxonomy_term
+    bundle: wdc_productos
+    value_key: name
+    bundle_key: vid
+  field_wdc_descripcion/value: content
+  field_wdc_descripcion/format:
+    plugin: default_value
+    default_value: basic_html
+destination:
+  plugin: 'entity:node'
+  default_bundle: wdc_producto
+migration_dependencies:
+  required: { }
+  optional: { }

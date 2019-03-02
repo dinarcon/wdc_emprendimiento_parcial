@@ -1,0 +1,11 @@
+uuid: 171c6ea8-c374-4db7-b748-24672c619dd6
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wdc_lugar
+id: node.wdc_lugar
+target_entity_type_id: node
+target_bundle: wdc_lugar
+default_langcode: site_default
+language_alterable: false

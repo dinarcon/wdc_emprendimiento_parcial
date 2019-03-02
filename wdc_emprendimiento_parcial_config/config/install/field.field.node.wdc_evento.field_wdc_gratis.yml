@@ -1,0 +1,23 @@
+uuid: 06e891ff-d6e3-4dd0-89c0-4ee2e1099ce9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_gratis
+    - node.type.wdc_evento
+id: node.wdc_evento.field_wdc_gratis
+field_name: field_wdc_gratis
+entity_type: node
+bundle: wdc_evento
+label: Gratis
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Este evento es gratuito'
+  off_label: 'Este evento es de pago'
+field_type: boolean

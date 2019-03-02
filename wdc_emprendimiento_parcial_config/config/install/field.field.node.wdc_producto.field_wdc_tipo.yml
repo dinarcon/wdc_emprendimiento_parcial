@@ -1,0 +1,29 @@
+uuid: 196b3b13-f1ae-4d52-98cc-a37b50ed17da
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_tipo
+    - node.type.wdc_producto
+    - taxonomy.vocabulary.wdc_productos
+id: node.wdc_producto.field_wdc_tipo
+field_name: field_wdc_tipo
+entity_type: node
+bundle: wdc_producto
+label: Tipo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      wdc_productos: wdc_productos
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

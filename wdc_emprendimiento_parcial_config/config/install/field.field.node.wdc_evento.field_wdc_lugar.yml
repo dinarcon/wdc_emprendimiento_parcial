@@ -1,0 +1,29 @@
+uuid: 7697ebae-12df-4d19-8a46-d0c0af54fd1c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_lugar
+    - node.type.wdc_evento
+    - node.type.wdc_lugar
+id: node.wdc_evento.field_wdc_lugar
+field_name: field_wdc_lugar
+entity_type: node
+bundle: wdc_evento
+label: Lugar
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      wdc_lugar: wdc_lugar
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

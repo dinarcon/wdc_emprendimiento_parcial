@@ -1,0 +1,30 @@
+uuid: 487422e7-46b9-4e50-88dc-bcea2128dda7
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.wdc_lugar.field_wdc_direccion
+    - field.field.node.wdc_lugar.field_wdc_imagen
+    - node.type.wdc_lugar
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: kl8Na4wQsFojhXGf0FmCZfelaoE5t7VTRvhze8FoFy4
+id: node.wdc_lugar.teaser
+targetEntityType: node
+bundle: wdc_lugar
+mode: teaser
+content:
+  field_wdc_direccion:
+    type: text_default
+    weight: 0
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_wdc_imagen: true
+  langcode: true
+  links: true

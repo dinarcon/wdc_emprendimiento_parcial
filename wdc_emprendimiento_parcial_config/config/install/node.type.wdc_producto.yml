@@ -1,0 +1,17 @@
+uuid: 59611809-0269-4d8c-b7e7-0f0925bd96c3
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Producto
+type: wdc_producto
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,47 @@
+uuid: 05a5fbbd-3717-4996-8ae8-77713e78f56f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.wdc_producto.field_wdc_descripcion
+    - field.field.node.wdc_producto.field_wdc_imagen
+    - field.field.node.wdc_producto.field_wdc_precio
+    - field.field.node.wdc_producto.field_wdc_tipo
+    - image.style.medium
+    - node.type.wdc_producto
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: O_V2IrYe1Xfkq2hkCWVm0Cu49ZDtBlH1uqPLjmkBNrU
+id: node.wdc_producto.teaser
+targetEntityType: node
+bundle: wdc_producto
+mode: teaser
+content:
+  field_wdc_imagen:
+    type: image
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: content
+    third_party_settings: {  }
+  field_wdc_precio:
+    type: number_decimal
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+hidden:
+  field_wdc_descripcion: true
+  field_wdc_tipo: true
+  langcode: true
+  links: true

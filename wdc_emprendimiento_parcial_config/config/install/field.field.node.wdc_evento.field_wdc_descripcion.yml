@@ -1,0 +1,21 @@
+uuid: cd1b0f32-08bd-4ee1-89d7-d7087b7899a2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_descripcion
+    - node.type.wdc_evento
+  module:
+    - text
+id: node.wdc_evento.field_wdc_descripcion
+field_name: field_wdc_descripcion
+entity_type: node
+bundle: wdc_evento
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

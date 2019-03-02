@@ -1,0 +1,11 @@
+uuid: 9dd107a8-4f3a-451a-95a4-a9f4634b10fc
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wdc_evento
+id: node.wdc_evento
+target_entity_type_id: node
+target_bundle: wdc_evento
+default_langcode: site_default
+language_alterable: false

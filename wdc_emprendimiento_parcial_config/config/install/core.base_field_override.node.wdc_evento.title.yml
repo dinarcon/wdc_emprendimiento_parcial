@@ -1,0 +1,18 @@
+uuid: 5983c55e-65fb-428a-b7e6-94a05b4661f7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wdc_evento
+id: node.wdc_evento.title
+field_name: title
+entity_type: node
+bundle: wdc_evento
+label: Evento
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

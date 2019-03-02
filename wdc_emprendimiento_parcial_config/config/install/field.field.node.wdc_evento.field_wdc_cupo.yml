@@ -1,0 +1,23 @@
+uuid: dbc58b72-99f9-4f9a-b9fc-a54d65638384
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_cupo
+    - node.type.wdc_evento
+id: node.wdc_evento.field_wdc_cupo
+field_name: field_wdc_cupo
+entity_type: node
+bundle: wdc_evento
+label: Cupo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ' personas'
+field_type: integer

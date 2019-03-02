@@ -1,0 +1,10 @@
+uuid: 605c5e6f-8a15-4ba8-a108-9bce0a17b9e9
+langcode: es
+status: true
+dependencies: {  }
+id: wdc_emprendimiento_parcial
+label: Emprendimiento
+description: ''
+source_type: ''
+module: null
+shared_configuration: null

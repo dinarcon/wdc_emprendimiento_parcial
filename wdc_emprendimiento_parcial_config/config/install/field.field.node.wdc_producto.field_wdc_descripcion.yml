@@ -1,0 +1,21 @@
+uuid: 3c5f48dc-7ff6-4125-82ca-1e2fd67f73cf
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wdc_descripcion
+    - node.type.wdc_producto
+  module:
+    - text
+id: node.wdc_producto.field_wdc_descripcion
+field_name: field_wdc_descripcion
+entity_type: node
+bundle: wdc_producto
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

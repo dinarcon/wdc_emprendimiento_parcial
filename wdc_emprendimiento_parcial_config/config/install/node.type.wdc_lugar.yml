@@ -1,0 +1,17 @@
+uuid: 4142d160-3b12-4cb5-9630-bd7ea6638d92
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Lugar
+type: wdc_lugar
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

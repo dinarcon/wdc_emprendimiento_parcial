@@ -1,0 +1,11 @@
+uuid: 9ba456a1-cb5b-4fa3-8ed5-61f8a54eee2e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.wdc_productos
+id: taxonomy_term.wdc_productos
+target_entity_type_id: taxonomy_term
+target_bundle: wdc_productos
+default_langcode: site_default
+language_alterable: false

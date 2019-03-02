@@ -1,0 +1,9 @@
+uuid: 43ecb924-725e-4591-9ded-0e1ddd3cc5ee
+langcode: es
+status: true
+dependencies: {  }
+name: Productos
+vid: wdc_productos
+description: ''
+hierarchy: 0
+weight: 0

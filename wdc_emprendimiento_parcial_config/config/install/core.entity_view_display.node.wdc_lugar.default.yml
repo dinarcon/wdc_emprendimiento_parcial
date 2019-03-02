@@ -1,0 +1,39 @@
+uuid: a616e0b4-9ed1-4e2e-b657-06f74f18b87a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.wdc_lugar.field_wdc_direccion
+    - field.field.node.wdc_lugar.field_wdc_imagen
+    - image.style.large
+    - node.type.wdc_lugar
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: PUtubOJiPkSywUtl-wXya0RbTw7UMKJBu1rs7a30Y78
+id: node.wdc_lugar.default
+targetEntityType: node
+bundle: wdc_lugar
+mode: default
+content:
+  field_wdc_direccion:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_wdc_imagen:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
+  links: true

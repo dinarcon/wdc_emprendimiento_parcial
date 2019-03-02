@@ -1,0 +1,19 @@
+uuid: 46f508b8-ac20-43ed-aa58-fd32ddf802eb
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_wdc_direccion
+field_name: field_wdc_direccion
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

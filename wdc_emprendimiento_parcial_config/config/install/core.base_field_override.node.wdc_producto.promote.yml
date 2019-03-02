@@ -1,0 +1,22 @@
+uuid: fe46b70d-2f0d-4c1d-b801-c25171491d63
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.wdc_producto
+id: node.wdc_producto.promote
+field_name: promote
+entity_type: node
+bundle: wdc_producto
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

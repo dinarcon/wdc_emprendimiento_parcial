@@ -1,0 +1,165 @@
+uuid: 83320a75-e7e3-4512-995d-ab4c4a1d73b2
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - wdc_emprendimiento_parcial
+id: wdc_eventos
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: wdc_emprendimiento_parcial
+label: 'Importar eventos'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 1
+      title: 'Fiesta de primer aniversario'
+      date_time: '2019-02-02T16:00:00'
+      free: 1
+      venue_id: 1
+      image: 'https://cdn.pixabay.com/photo/2017/05/23/22/33/happy-birthday-2338813_960_720.jpg'
+      tags: 'aniversario,pastel'
+      content: '<p> In pretium, sem vitae porta iaculis, sem neque tristique eros, sit amet luctus tortor ipsum pellentesque neque.</p><p>In feugiat posuere tortor, vel laoreet eros aliquet at. Fusce interdum bibendum sem eget interdum. Nulla facilisi. Aliquam condimentum massa et augue euismod sollicitudin. Vivamus quis enim erat. Vestibulum erat lacus, suscipit et libero eu, gravida consectetur nisl. Fusce hendrerit ipsum in sollicitudin condimentum. Praesent vel ex cursus, semper odio id, facilisis lorem.</p>'
+    -
+      id: 2
+      title: 'Feria - Mercadito ecológico'
+      date_time: '2019-03-01T19:30:00'
+      free: 0
+      price: 10.00
+      venue_id: 2
+      image: 'https://cdn.pixabay.com/photo/2017/11/22/19/47/stockholm-2971339_960_720.jpg'
+      tags: 'feria,rosas,cactus'
+      content: '<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean at dolor in magna hendrerit tincidunt. Proin lorem nunc, convallis ornare mattis in, viverra vel justo.</p><p>Phasellus ullamcorper mollis magna, nec blandit nisi vehicula at. Pellentesque dictum, nibh id mollis vehicula, neque ipsum mattis elit, a sodales tortor est ac ligula. Aenean tortor nisl, pharetra nec nisi id, dapibus lacinia neque. Curabitur pellentesque tortor quis mauris ultrices, vitae finibus sem imperdiet. Proin rhoncus pellentesque laoreet. Donec tempus justo in justo porta, eu aliquam mi lobortis. Cras facilisis quam a lobortis mollis.</p>'
+    -
+      id: 3
+      title: 'Taller - Técnicas de cultivo de cactus'
+      date_time: '2019-03-08T19:30:00'
+      free: 0
+      price: 150.00
+      capacity: 10
+      venue_id: 1
+      image: 'https://cdn.pixabay.com/photo/2017/11/29/11/03/ecology-2985781_960_720.jpg'
+      tags: 'taller,cactus'
+      content: '<p>Cras consectetur risus erat, a iaculis libero pretium eu. Sed ultrices sit amet leo imperdiet consectetur. Maecenas maximus urna ligula, sit amet aliquam lectus vulputate in.</p><p>Mauris interdum ex porttitor dignissim tristique. Ut a tellus tempus, mattis ex eu, aliquam dui. Curabitur egestas sodales lacus malesuada luctus. Curabitur quis massa tellus. In nec tempor libero, id pharetra ante. In hac habitasse platea dictumst.</p>'
+    -
+      id: 4
+      title: 'Taller - Decoración de oficinas'
+      date_time: '2020-01-08T19:30:00'
+      free: 0
+      price: 125.00
+      capacity: 18
+      venue_id: 1
+      image: 'https://cdn.pixabay.com/photo/2015/04/10/17/03/pots-716579_960_720.jpg'
+      tags: 'taller,decoración'
+      content: '<p>Vestibulum dictum enim elit, eu vehicula velit placerat facilisis. Maecenas dapibus tellus odio, non porta dolor sagittis ac.</p><p>Maecenas congue, quam et porta sollicitudin, nulla odio rhoncus nulla, ac dapibus lacus erat nec lacus. Cras quis mauris nec magna sagittis rutrum eget quis nunc. Nulla efficitur ipsum orci, vel faucibus odio fermentum vel. Nunc eget bibendum mi, ut posuere metus. Vestibulum aliquet fringilla sodales. Vestibulum tincidunt ultrices dolor, quis tincidunt dui laoreet quis. In tempor turpis neque, ut fermentum neque congue non. Quisque varius, mauris ut vehicula maximus, sem sem porttitor quam, vitae bibendum arcu elit non eros. Maecenas condimentum nulla in rutrum congue. Proin tincidunt auctor elit a dignissim.</p>'
+    -
+      id: 5
+      title: 'Fiesta de solsticio de verano'
+      date_time: '2019-07-21T19:30:00'
+      free: 1
+      capacity: 100
+      venue_id: 2
+      image: 'https://cdn.pixabay.com/photo/2014/02/27/16/10/spring-276014_960_720.jpg'
+      tags: 'fiesta,solsticio,verano'
+      content: '<p>Fusce id cursus diam, at semper risus. Aenean rutrum nisl eu imperdiet bibendum. Cras vel varius est. Morbi urna libero, varius non euismod eu, mattis eu augue.</p><p>Curabitur dictum nisi non sapien imperdiet, ac tincidunt felis dignissim. Integer semper lacus quis elit molestie pellentesque. Integer pharetra pellentesque enim, quis laoreet arcu. Maecenas vestibulum malesuada mi, a hendrerit eros blandit eu. Maecenas non tincidunt mi, eu tincidunt enim. Nam pulvinar dui eget rhoncus blandit. Nam molestie tincidunt mauris, vitae pharetra tortor ullamcorper ac. Sed nec sem eget urna facilisis volutpat in quis nisl. Mauris non tempor est, eu sodales massa.</p>'
+    -
+      id: 6
+      title: 'Fiesta de solsticio de invierno'
+      date_time: '2019-12-22T19:30:00'
+      free: 1
+      capacity: 100
+      venue_id: 2
+      image: 'https://cdn.pixabay.com/photo/2017/04/03/07/30/flower-2197679_960_720.jpg'
+      tags: 'fiesta,solsticio,invierno'
+      content: '<p>Suspendisse eu quam non velit suscipit accumsan non ut risus. Etiam molestie justo odio, eget sagittis urna sagittis in.</p><p>Integer volutpat, nibh vel tempor blandit, tellus leo finibus nisl, sed consequat erat libero a tortor. Aliquam diam ante, finibus quis dapibus in, auctor faucibus dolor. Sed malesuada congue lectus vestibulum congue. Fusce in nisi ipsum. Maecenas ullamcorper eleifend tellus, sit amet efficitur justo semper at. Mauris fringilla nunc nec lacinia faucibus.</p>'
+    -
+      id: 7
+      title: 'Día de picnik'
+      date_time: '2020-10-21T19:30:00'
+      free: 1
+      venue_id: 2
+      image: 'https://cdn.pixabay.com/photo/2015/05/25/14/27/summer-783347_960_720.jpg'
+      tags: 'picnik,alimentos'
+      content: '<p>Phasellus faucibus vehicula rhoncus. Nunc molestie varius neque, et tempus urna facilisis ut. Sed est mauris, hendrerit id dolor ac, interdum imperdiet libero.</p><p>Sed non lectus vel arcu gravida ullamcorper. Proin non lorem vitae quam maximus lacinia in sit amet nunc. Proin sollicitudin fermentum mauris eget lobortis. Nam commodo lectus sit amet ante volutpat, non interdum tellus rhoncus. Aliquam sed congue enim. Nulla in augue ac lectus lobortis ultricies.</p>'
+    -
+      id: 8
+      title: 'Taller - Arreglos florales'
+      date_time: '2020-12-11T19:30:00'
+      free: 0
+      price: 175.00
+      capacity: 12
+      venue_id: 1
+      image: 'https://cdn.pixabay.com/photo/2016/08/03/14/24/roses-1566792_960_720.jpg'
+      tags: 'taller,flores'
+      content: '<p>Donec nec vestibulum est, eget dapibus diam. Ut in tincidunt risus. Vestibulum in magna eu nisi sagittis sagittis eget eu dui.</p><p>Fusce bibendum mauris ac sapien aliquam rhoncus. Sed pretium tempus nisl, a commodo orci blandit consectetur. Morbi consectetur dui aliquam nisl rutrum consequat.</p>'
+    -
+      id: 9
+      title: 'Taller - Fotografía de la naturaleza'
+      date_time: '2020-02-20T19:30:00'
+      free: 0
+      price: 250.00
+      capacity: 5
+      venue_id: 1
+      image: 'https://cdn.pixabay.com/photo/2017/04/08/14/16/photography-2213362_960_720.jpg'
+      tags: 'taller,fotografía'
+      content: '<p>Praesent sed lectus vel sapien faucibus viverra fringilla a velit. Donec pharetra sagittis lectus ac sagittis. Vestibulum nec malesuada erat, quis lobortis neque.</p><p>Etiam tincidunt tellus a leo vulputate consequat. Donec condimentum fermentum diam, non ultrices dolor vulputate a. Maecenas id tempus ex.</p>'
+    -
+      id: 10
+      title: 'Tarde familiar'
+      date_time: '2020-07-24T19:30:00'
+      free: 1
+      venue_id: 2
+      image: 'https://cdn.pixabay.com/photo/2016/11/19/14/47/family-1839662_960_720.jpg'
+      tags: 'familia,juegos'
+      content: '<p>Curabitur at dui convallis, ornare nisl vel, posuere sem. Aenean efficitur in leo in mollis. Sed lacus urna, dapibus eget luctus a, sollicitudin nec tellus. Nulla euismod sed lacus nec molestie. Sed vitae blandit mi, in consectetur nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><p>Vivamus congue dolor enim, volutpat commodo sapien laoreet at. Sed sed augue ligula.</p>'
+  ids:
+    id:
+      type: integer
+  constants:
+    IMAGE_DESTINATION: 'public://images/'
+process:
+  title: title
+  field_wdc_fecha: date_time
+  field_wdc_gratis: free
+  field_wdc_precio: price
+  field_wdc_cupo: capacity
+  field_wdc_lugar:
+    plugin: migration_lookup
+    migration: wdc_lugares
+    source: venue_id
+  field_wdc_imagen:
+    plugin: image_import
+    source: image
+    destination: 'constants/IMAGE_DESTINATION'
+    alt: !title
+    reuse: TRUE
+  field_tags:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: tags
+    -
+      plugin: explode
+      source: tags
+      delimiter: ','
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      bundle: tags
+      value_key: name
+      bundle_key: vid
+  field_wdc_descripcion/value: content
+  field_wdc_descripcion/format:
+    plugin: default_value
+    default_value: basic_html
+destination:
+  plugin: 'entity:node'
+  default_bundle: wdc_evento
+migration_dependencies:
+  required:
+    - wdc_lugares
+  optional: { }

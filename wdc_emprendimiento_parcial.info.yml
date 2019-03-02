@@ -1,0 +1,11 @@
+name: Emprendimiento parcial
+type: module
+description: Migraciones para taller web desde cero. Creado por Mauricio Dinarte (@dinarcon). http://bit.ly/web-desde-cero
+package: Migration
+core: 8.x
+dependencies:
+  - drupal:migrate
+  - wdc_emprendimiento_parcial:wdc_emprendimiento_parcial_config
+  - migrate_file:migrate_file
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
